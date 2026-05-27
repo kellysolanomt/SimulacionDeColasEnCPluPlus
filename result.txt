@@ -1,17 +1,19 @@
-Sistema de Colas Simple
+Modelo de Tiempo Discreto Geo/Geo/m/FIFO/N
 
-Tiempo promedio de llegada      7.000 minutos
+Probabilidad de llegada p         0.400000
+Probabilidad de servicio q        0.500000
+Numero de servidores m                 2
+Capacidad finita N                   10 clientes
+Numero de intervalos simulados   100000
+Carga aproximada p/(m*q)      0.400000
 
-Tiempo promedio de atencion           8.000 minutos
+Llegadas generadas                    40011
+Clientes aceptados                   40011
+Clientes rechazados                      0
+Clientes que esperaron                 2471
 
-Numero de clientes             5
-
-
-
-Espera promedio en la cola     33.271 minutos
-
-Numero promedio en cola     0.256
-
-Uso del servidor          0.821
-
-Tiempo de terminacion de la simulacion     648.786 minutos
+Probabilidad de rechazo         0.000000
+Probabilidad de espera          0.061758
+Utilizacion promedio            0.397710
+Numero promedio en cola         0.036870
+Numero promedio en sistema      0.832290
